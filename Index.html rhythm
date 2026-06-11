@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bageecha Bistro</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#0b2c6b;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+header h1{
+font-size:36px;
+}
+
+.hero{
+background:#0b2c6b;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+
+.hero img{
+width:250px;
+max-width:90%;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+background:#ffd700;
+color:#000;
+padding:12px 25px;
+margin-top:15px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.section{
+padding:50px 20px;
+text-align:center;
+}
+
+.menu{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+width:250px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+color:#0b2c6b;
+font-size:22px;
+font-weight:bold;
+}
+
+footer{
+background:#0b2c6b;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Bageecha Bistro</h1>
+<p>Cafe & Restro | Dahod</p>
+</header>
+
+<section class="hero">
+<img src="logo.jpg" alt="Bageecha Bistro Logo">
+
+<h2>Delicious Food & Memorable Moments</h2>
+
+<p>Fresh Food • Fast Service • Online Ordering</p>
+
+<a class="btn" href="https://wa.me/918696252070">
+Order on WhatsApp
+</a>
+</section>
+
+<section class="section">
+<h2>Popular Menu</h2>
+<br>
+
+<div class="menu">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" alt="">
+<h3>Farm Fresh Pizza</h3>
+<p class="price">₹249</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" alt="">
+<h3>Cheese Burger</h3>
+<p class="price">₹149</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="">
+<h3>Cold Coffee</h3>
+<p class="price">₹99</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1551024709-8f23befc6cf7" alt="">
+<h3>Blue Lagoon Mocktail</h3>
+<p class="price">₹129</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Contact Us</h2>
+
+<p><b>Location:</b> Dahod, Gujarat</p>
+<br>
+<p><b>Phone:</b> +91 86962 52070</p>
+<br>
+
+<a class="btn" href="tel:+918696252070">
+Call Now
+</a>
+</section>
+
+<footer>
+<h3>Bageecha Bistro</h3>
+<p>Dahod, Gujarat</p>
+<p>+91 86962 52070</p>
+</footer>
+
+</body>
+</html>
